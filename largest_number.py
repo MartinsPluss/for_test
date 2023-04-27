@@ -14,3 +14,7 @@ for tuple_number in my_tuple:
 
 new_list.sort()
 print(new_list[-1])
+
+# adding third option to find largest number in list or tuple
+
+print(max(my_tuple))
