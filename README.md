@@ -1,9 +1,16 @@
-# for_test
-2023-04-27
+my_list = [1235, 124, 155, 123, 15687, 589]
+largest_num = 0
 
-this is edited README file.
-Test2
-Test2
-Test2
-Test2
+for number in my_list:
+    if number > largest_num:
+        largest_num = number
 
+print(largest_num)
+
+new_list = []
+my_tuple = (15, 12, 13, 14, 1)
+for tuple_number in my_tuple:
+    new_list.append(tuple_number)
+
+new_list.sort()
+print(new_list[-1])
